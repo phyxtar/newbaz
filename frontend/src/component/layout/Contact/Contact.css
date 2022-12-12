@@ -16,8 +16,8 @@
   
   .mailBtn > button {
     text-decoration: none;
-    font: 200 2vmax "Roboto";
-    cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
+    font: 100 2vmax "Roboto";
+    cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer !important;
     padding: 2vmax;
   }
 

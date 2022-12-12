@@ -17,6 +17,10 @@ const Footer = () => {
           </div>
           <div className='col-md-6 text-center'>
             <div className='middleFooter'>
+              <h4>
+                <strong>Reach Us</strong> TollFree -
+                <span className=''> 18003094131</span>{' '}
+              </h4>
               <img
                 src={logo}
                 style={{
@@ -37,6 +41,7 @@ const Footer = () => {
               <a href='https://www.facebook.com/profile.php?id=100085530316914'>
                 Facebook
               </a>
+              <a href=''>Become A Merchant</a>
             </div>
           </div>
         </div>

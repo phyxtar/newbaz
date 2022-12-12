@@ -22,9 +22,9 @@ const Contact = () => {
               loading='lazy'
               referrerpolicy='no-referrer-when-downgrade'
             ></iframe>
-            <h1>
+            <h3>
               <span className='underline--magical'>Or Reach us Via -</span>
-            </h1>
+            </h3>
             <p>
               <strong>Call us:</strong> TollFree -
               <span className='blink'> 18003094131</span>{' '}
@@ -32,6 +32,11 @@ const Contact = () => {
             <p>
               <strong>Email:</strong>support@m-bazaar.com
             </p>
+            <a className='mailBtn' href='mailto:info@m-bazaar.com'>
+              <Button className='underline--magical'>
+                Email Us for Carrer
+              </Button>
+            </a>
           </Col>
           <Col md={6}>
             <h3>Contact Form</h3>

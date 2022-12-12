@@ -70,7 +70,7 @@ const Dashboard = () => {
         <div className='dashboardSummary'>
           <div>
             <p>
-              Total Amount <br /> ₹{totalAmount}
+              Total Amount <br /> ₹{totalAmount.toLocaleString('en-IN')}
             </p>
           </div>
           <div className='dashboardSummaryBox2'>
